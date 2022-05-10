@@ -7,15 +7,16 @@ const Review = ({ review }) => {
                 <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicabo dolorem exercitationem esse ipsam iure nostrum debitis cupiditate autem optio facere!</p>
             </div>
             <div className='flex items-center justify-center'>
-                <div className="avatar">
+                <div className="avatar py-3">
                     <div className="w-16 rounded-full ring ring-primary ring-offset-base-100 mr-5">
                         <img src={review.img} alt='' />
+                    </div>
                     </div>
                     <div>
                         <h3 className='text-xl'>{review.name}</h3>
                         <p>{review.location}</p>
                     </div>
-                </div>
+                
             </div>
         </div>
     );

@@ -4,7 +4,7 @@ import { Link } from 'react-router-dom';
 const Navber = () => {
     const menuitems = <>
         <li><Link to='/'>Home</Link></li>
-        <li><Link to='/appoinment'>Appoinment</Link></li>
+        <li><Link to='/appoeinment'>Appoinment</Link></li>
         <li><Link to='/review'>Review</Link></li>
         <li><Link to='/contact'>Contact</Link></li>
         <li><Link to='/aboute'>About</Link></li>
